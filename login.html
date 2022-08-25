@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link type="text/css" rel="stylesheet" href="Styles/default.css">
+    <link type="text/css" rel="stylesheet" href="Styles/login.css">
+    <style>
+        body{
+            background-image: url('./img/star2.jpg');
+            background-repeat: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>API STAR WARS</h1>
+    <div>
+        <form>
+            <div class="row">
+                <label>User</label>
+                <input type="text" id="login" name="login">
+            </div>
+            <div class="row">
+                <label for="senha">Password</label>
+                <input id="senha" type="password">
+            </div>
+            <div class="row">
+                <button type="button" onclick="realizarLogin()">Log in</button>
+            </div>
+            <div>
+                <a href="#">Forgot your password?</a>
+                <a href="#">Register</a>
+            </div>
+            
+        </form>
+    </div>
+    <script type="text/javascript" src="./assets/logins.js"></script>
+    
+</body>
+</html>

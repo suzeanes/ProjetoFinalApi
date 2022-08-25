@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Star Wars</title>
+    <style>
+        body{
+            background-image: url('./img/star6.webp');
+            background-repeat: none;
+            color: white;
+            padding-top: 22px;            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span id="usuario-logado"></span>
+        </div>
+    </header>
+    <h1>Your API is:</h1>
+    <h2>Characters of Star Wars</h2>
+    <ul id="info"></ul>
+    <div class="row">
+        <button id="maisp" type="button">Mais Personagens</button>
+    </div>
+    <div class="row">
+        <button type="button" onclick="botaoVoltar()">Go back</button>
+    </div>
+    
+    <script type="text/javascript" src="./assets/api_star_wars.js"></script>
+</body>
+</html>
